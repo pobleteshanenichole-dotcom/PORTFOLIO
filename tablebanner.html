@@ -79,18 +79,24 @@
 
       schedule:
         "<!DOCTYPE html><html lang='en'><head><meta charset='UTF-8'>" +
-        "<style>body{font-family:Arial;background:#f4fbf6;color:#2e4f32;padding:24px;margin:0}h2{text-align:center;margin:0 0 16px}table{width:100%;border-collapse:collapse}th,td{border:1px solid #2e4f32;padding:8px;text-align:center}th{background:#a8d5ba}</style>" +
-        "</head><body>" +
-        "<h2>My Schedule</h2>" +
-        "<table>" +
-        "<tr><th>Day</th><th>Subject/Activity</th><th>Time</th></tr>" +
-        "<tr><td>Monday</td><td>Math</td><td>9:00–10:00</td></tr>" +
-        "<tr><td>Tuesday</td><td>Science</td><td>10:00–11:00</td></tr>" +
-        "<tr><td>Wednesday</td><td>English</td><td>1:00–2:00</td></tr>" +
-        "<tr><td>Thursday</td><td>PE</td><td>8:00–9:00</td></tr>" +
-        "<tr><td>Friday</td><td>ICT</td><td>2:00–3:00</td></tr>" +
-        "</table>" +
-        "</body></html>"
+"<style>body{font-family:Arial;background:#f4fbf6;color:#2e4f32;padding:24px;margin:0}" +
+"h2{text-align:center;margin:0 0 16px}" +
+"table{width:100%;border-collapse:collapse}" +
+"th,td{border:1px solid #2e4f32;padding:8px;text-align:center}" +
+"th{background:#a8d5ba}" +
+"tr:nth-child(even){background:#eaf5ea}" +
+"</style></head><body>" +
+"<h2>Class Schedule</h2>" +
+"<table>" +
+"<tr><th>Day</th><th>Subject</th><th>Time</th><th>Room</th><th>Instructor</th></tr>" +
+"<tr><td>Mon–Tue</td><td>CPE218 Computer Architecture and Organization</td><td>8:00–9:30, 12:00–1:30</td><td>COELAB</td><td>Sir Aljhon Manahan</td></tr>" +
+"<tr><td>Mon–Tue</td><td>CPE220 Computer Networks and Security</td><td>9:30–11:00, 3:00–4:30</td><td>COELAB</td><td>Ms. Nzelle Tenedero</td></tr>" +
+"<tr><td>Thu–Fri</td><td>CPE221 Digital Signal Processing</td><td>8:00–10:30</td><td>CLAB3 (F2F THRS) / OLC (FRI)</td><td>Sir Roberto Lozada</td></tr>" +
+"<tr><td>Thu–Fri</td><td>CPE302 Embedded Systems 2</td><td>10:30–12:00</td><td>SJ201/SJ202</td><td>Sir Roberto Lozada</td></tr>" +
+"<tr><td>Thu–Fri</td><td>CPE502 CpE Practice and Design 2</td><td>1:00–2:30</td><td>SJ401</td><td>Sir Tommy Ditucalan</td></tr>" +
+"<tr><td>Thu–Fri</td><td>CPE303 Embedded Systems 3</td><td>3:00–4:30</td><td>SJ401/SJ403</td><td>Sir Roberto Lozada</td></tr>" +
+"</table>" +
+"</body></html>"
     };
 
     function loadPage(pageKey) {
@@ -161,6 +167,7 @@
   </div>
 </body>
 </html>
+
 
 
 
